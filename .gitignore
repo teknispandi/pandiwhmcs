@@ -1,0 +1,15 @@
+# secrets and runtime data
+config.local.php
+lib/certificate/*
+!lib/certificate/.gitignore
+lib/logs/*
+!lib/logs/.gitignore
+!lib/logs/.htaccess
+
+# test suite downloads
+tests/xsd/
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/

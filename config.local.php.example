@@ -1,0 +1,15 @@
+<?php
+
+// Copy to config.local.php (ignored by git) and fill in. Read by config.php.
+
+define('PANDIWHMCS_PDNS_URL', 'https://pdns.example.net:8081/api/v1');
+define('PANDIWHMCS_PDNS_API_KEY', 'change-me');
+define('PANDIWHMCS_PDNS_SERVER', 'localhost');
+
+define('PANDIWHMCS_PARKING_IP', '192.0.2.10');
+define('PANDIWHMCS_EXPIRED_IP', '192.0.2.20');
+
+define('PANDIWHMCS_PARKING_NS1', 'ns1.example.net');
+define('PANDIWHMCS_PARKING_NS2', 'ns2.example.net');
+
+define('PANDIWHMCS_CRON_BATCH', '50');
